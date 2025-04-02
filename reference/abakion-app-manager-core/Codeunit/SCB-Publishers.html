@@ -1,0 +1,5631 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::SCB_Publishers">
+  <h1>Codeunit &quot;SCB Publishers&quot;</h1>
+
+
+<div class="font-style-italic">ID 6083026</div>
+
+
+
+
+
+
+
+
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">InvokeWebhook</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version . Replaced by InvokeWebhooks</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by InvokeWebhooks)]
+procedure InvokeWebhook(APIFunction: Text[100], RecVariant: Variant, var WebhookSucces: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WebhookSucces
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InvokeWebhooks</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure InvokeWebhooks(APIFunction: Text[100], RecordIDVar: RecordId, var WebhookSucces: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WebhookSucces
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">SalesLineLocationFromBuyFromVendorCode</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SalesLineLocationFromBuyFromVendorCode(var SalesLineRec: Record &quot;Sales Line&quot;, var SalesLinexRec: Record &quot;Sales Line&quot;, Rec: Record &quot;Sales Line&quot;, xRec: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLineRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLinexRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetICIntercompanyName</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetICIntercompanyName(var CompanyName: Text[30], SalesLineVar: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CompanyName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLineVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">PublisherCalcFieldWithAssigned</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure PublisherCalcFieldWithAssigned(var ItemRec: Record Item, var QtyAssignedSales: Decimal, var QtyAssignedProd: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemRec
+   							</td>
+   							<td class="font-style-italic">
+Record Item                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QtyAssignedSales
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QtyAssignedProd
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MobileFlowSetSelectionView</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure MobileFlowSetSelectionView(FlowCode: Code[20], RecVar: Variant, var ExitCode: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FlowCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecVar
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExitCode
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MobileFlowRun</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure MobileFlowRun(FlowCode: Code[20], ResourceNo: Code[20], var ExitCode: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								FlowCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResourceNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExitCode
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">TransferMasterDataFromSalesLineToProdOrderLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure TransferMasterDataFromSalesLineToProdOrderLine(ProdOrderLine: Record &quot;Prod. Order Line&quot;, SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ProdOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">TransferMasterDataFromSalesLineToPurchHeader</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure TransferMasterDataFromSalesLineToPurchHeader(PurchaseHeader: Record &quot;Purchase Header&quot;, SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">TransferMasterDataFromSalesLineToAssemblyHeader</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure TransferMasterDataFromSalesLineToAssemblyHeader(AssemblyHeader: Record &quot;Assembly Header&quot;, SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								AssemblyHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Assembly Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSalesOrderLineFromProductionOrder</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetSalesOrderLineFromProductionOrder(ProdOrderLine: Record &quot;Prod. Order Line&quot;, var SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ProdOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSalesOrderLineFromPurchaseOrder</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetSalesOrderLineFromPurchaseOrder(PurchaseHeader: Record &quot;Purchase Header&quot;, var SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DynamicDataExchangePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DynamicDataExchangePublisher(TemplateCode: Code[20], OwnerID: Code[50], RecordID: RecordId)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OwnerID
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordID
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnGetOpenMailSettingPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnGetOpenMailSettingPublisher(var ReportId: Integer, var OpenMail: Option, ReportSelections: Record &quot;Report Selections&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReportId
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OpenMail
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReportSelections
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Report Selections&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetCustomerEmailAddress</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetCustomerEmailAddress(ReportID: Integer, BillToCustomerNo: Code[20], var ToAddress: Text, ReportSelections: Record &quot;Report Selections&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReportID
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BillToCustomerNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ToAddress
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReportSelections
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Report Selections&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnPreparePurchaseDocumentAndSendMail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnPreparePurchaseDocumentAndSendMail(DocumentHeader: Record &quot;Purchase Header&quot;, DocumentLine: Record &quot;Purchase Line&quot;, HandlingLine: Record &quot;SCB Purchase Order Handling&quot;, SendType: Option, HandlingType: Option, ReminderNumberVar: Integer, ReminderTypeVar: Option, var ReminderPurchLineVar: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								DocumentHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DocumentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SendType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderNumberVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderTypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderPurchLineVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetMailHandlingLineFromHandlingJournalPuchline</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetMailHandlingLineFromHandlingJournalPuchline(var PurchaseLine: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetNewRequestedQuantityPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetNewRequestedQuantityPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var NewRequestedQuantityVar: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewRequestedQuantityVar
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetNewRequestedDirectCostPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetNewRequestedDirectCostPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var NewRequestedDirectCostVar: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewRequestedDirectCostVar
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetNewRequestedLineDiscountPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetNewRequestedLineDiscountPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var NewRequestedLineDiscountVar: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewRequestedLineDiscountVar
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetNewRequestedShipmentDatePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetNewRequestedShipmentDatePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var NewRequestedShipmentDateVar: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewRequestedShipmentDateVar
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetNewRequestedReceiptPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetNewRequestedReceiptPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var NewRequestedReceiptDateVar: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewRequestedReceiptDateVar
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetVendorTransportMethodPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetVendorTransportMethodPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var VendorTransportMethodVar: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VendorTransportMethodVar
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetVendorTransportMethodPurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetVendorTransportMethodPurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, VendorTransportMethodVar: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VendorTransportMethodVar
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">VendTransportMethodOnLookUpContainderHeaderPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure VendTransportMethodOnLookUpContainderHeaderPublisher(VendorNo: Code[20], var VendorTransportMethod: Text, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								VendorNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VendorTransportMethod
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetExpectedShipmentDatePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetExpectedShipmentDatePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var ExpectedShipmentDateVar: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExpectedShipmentDateVar
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetExpectedShipmentDatePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetExpectedShipmentDatePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, ExpectedShipmentDateVar: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExpectedShipmentDateVar
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetHandlingTypePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetHandlingTypePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, var HandlingTypeVar: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingTypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetHandlingLineFromVariantPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetHandlingLineFromVariantPublisher(var HandlingLine: Variant, var RequestedHandlingType: Option, var PurchaseHeader: Record &quot;Purchase Header&quot;, var PurchaseLine: Record &quot;Purchase Line&quot;, var ReminderNoVar: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								HandlingLine
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RequestedHandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetHandlingTypePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetHandlingTypePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, HandlingAction: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingAction
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">HandlePurchaseLineBeforeMail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure HandlePurchaseLineBeforeMail(var PurchaseHeader: Record &quot;Purchase Header&quot;, var PurchLineRec: Record &quot;Purchase Line&quot;, var PurchHandlingRec: Record &quot;SCB Purchase Order Handling&quot;, var HandlingType: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchLineRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchHandlingRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">HandlePurchaseHeaderBeforeMail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure HandlePurchaseHeaderBeforeMail(var PurchaseHeader: Record &quot;Purchase Header&quot;, var PurchLineRec: Record &quot;Purchase Line&quot;, var PurchHandlingRec: Record &quot;SCB Purchase Order Handling&quot;, var HandlingType: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchLineRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchHandlingRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ResetPurchaseHandlingAfterMail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ResetPurchaseHandlingAfterMail(var PurchaseHeader: Record &quot;Purchase Header&quot;, var PurchLineRec: Record &quot;Purchase Line&quot;, var PurchHandlingRec: Record &quot;SCB Purchase Order Handling&quot;, var HandlingType: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchLineRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchHandlingRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetMailHandlingLinePurchLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetMailHandlingLinePurchLinePublisher(var PurchaseLine: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetMailHandlingLineHandlingLinePublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SetMailHandlingLineHandlingLinePublisher(var PurchaseOrderHandling: Record &quot;SCB Purchase Order Handling&quot;, SetAction: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseOrderHandling
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SetAction
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">HandlingOurStatusPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure HandlingOurStatusPublisher(var PurchaseLine: Record &quot;Purchase Line&quot;, HandlingOurStatusOption: Option, DefaultOption: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingOurStatusOption
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DefaultOption
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">HandlePurchaseLineStatusPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure HandlePurchaseLineStatusPublisher(var PurchaseLine: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SCBMailPublisher</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure SCBMailPublisher(var PurchaseHeader: Record &quot;Purchase Header&quot;, var PurchaseLine: Record &quot;Purchase Line&quot;, var PurchaseOrderHandling: Record &quot;SCB Purchase Order Handling&quot;, SendType: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PurchaseOrderHandling
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SendType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">PreparePurchaseDocumentMail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure PreparePurchaseDocumentMail(DocumentHeader: Record &quot;Purchase Header&quot;, DocumentLine: Record &quot;Purchase Line&quot;, HandlingLine: Record &quot;SCB Purchase Order Handling&quot;, SendType: Option, HandlingType: Option, ReminderNumberVar: Integer, ReminderTypeVar: Option, var ReminderPurchLineVar: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								DocumentHeader
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Header&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DocumentLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Purchase Order Handling&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SendType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderNumberVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderTypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReminderPurchLineVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GraphicalInventoryProfile</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GraphicalInventoryProfile(ItemNo: Code[20], LocationCode: Code[20], VariantCode: Code[20], ShortCutDim1Code: Code[20], ShortCutDim2Code: Code[20])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShortCutDim1Code
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShortCutDim2Code
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OpenMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OpenMasterDataOnDocuments(KeyField1Var: Code[50], KeyField2Var: Code[20], KeyField3Var: Code[20], KeyField4Var: Code[20], KeyField5Var: Code[20], TypeVar: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								KeyField1Var
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField2Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField3Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField4Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField5Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OpenMasterDataOnContainerDocuments</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Event which allow to open the &quot;SCB Master Data on Documents&quot; page without having dependancy on the Master Data Information extension</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OpenMasterDataOnContainerDocuments(KeyField1Var: Code[50], KeyField2Var: Code[20], KeyField3Var: Code[20], KeyField4Var: Code[20], KeyField5Var: Code[20], TypeVar: Option, MasterTableNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								KeyField1Var
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								<p>Table info: usually looks like: TABLE 36, or TABLE 39, etc.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField2Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>First primary key value of a record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField3Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>Second primary key value of a record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField4Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>Third primary key value of a record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField5Var
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>Fourth primary key value of a record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								<p>Type, can have the values: Header,Line,Footer</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterTableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Set the value of the &quot;Master Table No.&quot; field which is used when Key fields are linked to another or temp table</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CheckForActiveDocumentCustomizerReport</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure CheckForActiveDocumentCustomizerReport(ReportFilter: Text, var TestResult: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReportFilter
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TestResult
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">PrintHierarchyReport</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure PrintHierarchyReport(RecordIDFrom: RecordId, HierarchyCodeFrom: Text, BuildFromTopFrom: Boolean, AddIndentFrom: Boolean, UpdateHierarchyRecFrom: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordIDFrom
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HierarchyCodeFrom
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuildFromTopFrom
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AddIndentFrom
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UpdateHierarchyRecFrom
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetAPIFunction</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetAPIFunction(APIFunction: Text[100], var APIFunctionExist: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIFunctionExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">WebhookPublisher</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version . Replaced by WebhookPublishers</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced by WebhookPublishers)]
+[IntegrationEvent(False,False)]
+local procedure WebhookPublisher(APIFunction: Text[100], RecVariant: Variant, var WebhookSucces: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WebhookSucces
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">WebhookPublishers</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure WebhookPublishers(APIFunction: Text[100], RecordIDVar: RecordId, var WebhookSucces: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WebhookSucces
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ProcessBeforeCarryOut</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ProcessBeforeCarryOut(BatchID: Code[20], var HandlingResult: Integer, var ResponseText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingResult
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResponseText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ProcessAfterCarryOut</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ProcessAfterCarryOut(BatchID: Code[20], var HandlingResult: Integer, var ResponseText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingResult
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResponseText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ProcessBeforeCreateExportData</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ProcessBeforeCreateExportData(BatchID: Code[20], var HandlingResult: Integer, var ResponseText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingResult
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResponseText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ProcessAfterCreateExportData</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ProcessAfterCreateExportData(BatchID: Code[20], var HandlingResult: Integer, var ResponseText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingResult
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResponseText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ProcessAfterParseToBuffer</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ProcessAfterParseToBuffer(BatchID: Code[20], var HandlingResult: Integer, var ResponseText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HandlingResult
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ResponseText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_ConvertImportBlob</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_ConvertImportBlob(BatchID: Code[20], var APIGroup: Text[100], var APIFunction: Text[100], APIVersion: Text[100], var &quot;Webhook Code&quot;: Text[100], var &quot;Webhook Import Name&quot;: Text[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIGroup
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIVersion
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Webhook Code
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Webhook Import Name
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_ConvertExportBlob</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_ConvertExportBlob(BatchID: Code[20], var APIGroup: Text[100], var APIFunction: Text[100], APIVersion: Text[100], var &quot;Webhook Code&quot;: Text[100], var &quot;Webhook Export Name&quot;: Text[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIGroup
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIVersion
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Webhook Code
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Webhook Export Name
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_CarryOutFullFlow</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_CarryOutFullFlow(BatchID: Code[20])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_CreateFromExternalSystem</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_CreateFromExternalSystem(APIGroup: Text, APIFunction: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIGroup
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_ExportToExternalSystem</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_ExportToExternalSystem(BatchID: Code[20])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DataBatch_GetNewBatchID</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure DataBatch_GetNewBatchID(var BatchID: Code[20], var APIFunction: Text, WithInsert: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								BatchID
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								APIFunction
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WithInsert
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">BuildAPIFunctionList</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure BuildAPIFunctionList(var APIFunctionAvailable: Record &quot;SCB API Functions Available&quot; temporary, BuildForDataIntegrationDirection: Enum &quot;SCB Integration Direction&quot;, BuildForRelatedTableName: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								APIFunctionAvailable
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB API Functions Available&quot; temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuildForDataIntegrationDirection
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Integration-Direction.html">&quot;SCB Integration Direction&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuildForRelatedTableName
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">RunMaintainHierarchyPage</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure RunMaintainHierarchyPage(var HierarchyInstalled: Boolean, HierarchyCode: Code[50], HierarchyTable: Integer, TemplateCode: Code[50], RecordIDVar: RecordId)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								HierarchyInstalled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HierarchyCode
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HierarchyTable
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">RunHierarchy</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure RunHierarchy(var HierarchyInstalled: Boolean, CurrentRecordID: RecordId, RecordIDVar: RecordId, HierarchyCode: Code[50], UserIDVar: Code[50], BuildFromTop: Boolean, AddIndent: Boolean, UpdateHierarchyRec: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								HierarchyInstalled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrentRecordID
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HierarchyCode
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UserIDVar
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuildFromTop
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AddIndent
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UpdateHierarchyRec
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">BuildTempHierarchy</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure BuildTempHierarchy(var HierarchyInstalled: Boolean, var RecRef: RecordRef, CurrentRecordID: RecordId, RecordIDVar: RecordId, var HierarchyCode: Text, UserIDVar: Code[50], BuildFromTop: Boolean, AddIndent: Boolean, UpdateHierarchyRec: Boolean, var EntryNoField: Integer, var PartOfEntryNoField: Integer, var SortingField: Integer, var IndentationField: Integer, var RecordIDField: Integer, var UserIDField: Integer, var DescriptionField: Integer, var TableNoField: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								HierarchyInstalled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecRef
+   							</td>
+   							<td class="font-style-italic">
+RecordRef                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrentRecordID
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HierarchyCode
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UserIDVar
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BuildFromTop
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AddIndent
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UpdateHierarchyRec
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EntryNoField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PartOfEntryNoField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SortingField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IndentationField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UserIDField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DescriptionField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TableNoField
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">AddOrRemoveRecord</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure AddOrRemoveRecord(var HierarchyInstalled: Boolean, CurrentRecID: RecordId, PartOfRecID: RecordId, CurrentHierarchyCode: Text, ParentHierarchyCode: Text, UserIDVar: Code[50], ShowMessage: Boolean, UpdateHierarchyRec: Boolean, AddOrRemove: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								HierarchyInstalled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrentRecID
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PartOfRecID
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrentHierarchyCode
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ParentHierarchyCode
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UserIDVar
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShowMessage
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UpdateHierarchyRec
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AddOrRemove
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FillReversePlanningRefNoFromProdOrderLineRefNoSalesLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure FillReversePlanningRefNoFromProdOrderLineRefNoSalesLine(var ReversePlanning: Record &quot;SCB Reverse Planning&quot;, SalesLine: Record &quot;Sales Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReversePlanning
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Reverse Planning&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FillReversePlanningRefNoFromProdOrderLineRefNoProdOrderLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure FillReversePlanningRefNoFromProdOrderLineRefNoProdOrderLine(var ReversePlanning: Record &quot;SCB Reverse Planning&quot;, ProdOrderLine: Record &quot;Prod. Order Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReversePlanning
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Reverse Planning&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ProdOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FillReversePlanningRefNoFromProdOrderRefNoProdOrder</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure FillReversePlanningRefNoFromProdOrderRefNoProdOrder(var ReversePlanning: Record &quot;SCB Reverse Planning&quot;, ProductionOrder: Record &quot;Production Order&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ReversePlanning
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Reverse Planning&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ProductionOrder
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Production Order&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ReplicateMDILookupReplicateField</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ReplicateMDILookupReplicateField(TableNo: Integer, FieldName: Text[30], RecordIDVar: RecordId, MasterDataTableTypeText: Text, RelatedInformationCode: Text[20], MasterDataFieldTypeText: Text, InfoValue: Code[30], var FieldValue: Text, ValidationCodeExist: Boolean, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RelatedInformationCode
+   							</td>
+   							<td class="font-style-italic">
+Text[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataFieldTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ValidationCodeExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ReplicateMDIValidateReplicateField</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ReplicateMDIValidateReplicateField(TableNo: Integer, FieldName: Text[30], RecordIDVar: RecordId, MasterDataTableTypeText: Text, RelatedInformationCode: Text[20], MasterDataFieldTypeText: Text, InfoValue: Code[30], var FieldValue: Text, ValidationCodeExist: Boolean, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RelatedInformationCode
+   							</td>
+   							<td class="font-style-italic">
+Text[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataFieldTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ValidationCodeExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ReplicateMDILookupReplicateFieldWithMasterTable</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ReplicateMDILookupReplicateFieldWithMasterTable(TableNo: Integer, FieldName: Text[30], MasterTableNo: Integer, MasterRecordIDVar: RecordId, MasterDataTableTypeText: Text, RelatedInformationCode: Text[20], MasterDataFieldTypeText: Text, InfoValue: Code[30], var FieldValue: Text, ValidationCodeExist: Boolean, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterTableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterRecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RelatedInformationCode
+   							</td>
+   							<td class="font-style-italic">
+Text[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataFieldTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ValidationCodeExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ReplicateMDIValidateReplicateFieldWithMasterTable</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure ReplicateMDIValidateReplicateFieldWithMasterTable(TableNo: Integer, FieldName: Text[30], MasterTableNo: Integer, MasterRecordIDVar: RecordId, MasterDataTableTypeText: Text, RelatedInformationCode: Text[20], MasterDataFieldTypeText: Text, InfoValue: Code[30], var FieldValue: Text, ValidationCodeExist: Boolean, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterTableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterRecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RelatedInformationCode
+   							</td>
+   							<td class="font-style-italic">
+Text[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataFieldTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ValidationCodeExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetReplicateFieldValue</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetReplicateFieldValue(TableNo: Integer, FieldName: Text[30], RecordIDVar: RecordId, MasterDataTableTypeText: Text, RelatedInformationCode: Text[20], MasterDataFieldTypeText: Text, InfoValue: Code[30], var FieldValue: Text, ValidationCodeExist: Boolean, MasterTableNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldName
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RelatedInformationCode
+   							</td>
+   							<td class="font-style-italic">
+Text[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataFieldTypeText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FieldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ValidationCodeExist
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterTableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeGetReplicateMDIMasterDataTableType</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnBeforeGetReplicateMDIMasterDataTableType(TableNo: Integer, var MasterDataTableType: Integer, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataTableType
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeGetReplicateMDIMasterDataDocumentType</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnBeforeGetReplicateMDIMasterDataDocumentType(TableNo: Integer, var MasterDataDocumentType: Integer, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MasterDataDocumentType
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MasterDataInforEntryOnInsert</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure MasterDataInforEntryOnInsert(TableNo: Integer, RecordIDVar: RecordId, KeyField1: Text[30], InfoCode: Code[20], InfoValue: Code[30], Value: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField1
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Value
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MasterDataInforEntryOnModify</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure MasterDataInforEntryOnModify(TableNo: Integer, RecordIDVar: RecordId, KeyField1: Text[30], InfoCode: Code[20], InfoValue: Code[30], Value: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField1
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Value
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MasterDataInforEntryOnDelete</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure MasterDataInforEntryOnDelete(TableNo: Integer, RecordIDVar: RecordId, KeyField1: Text[30], InfoCode: Code[20], InfoValue: Code[30], Value: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField1
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Value
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">LookupInformationCode</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure LookupInformationCode(var InformationCode: Code[20], InformationCodeFilter: Text[30], var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InformationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InformationCodeFilter
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetInformationCode</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetInformationCode(var InformationCode: Code[20], var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InformationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">LookupInformationValue</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure LookupInformationValue(InformationCode: Code[20], var InfoValue: Code[30], var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								InformationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">LookupTemplateCode</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure LookupTemplateCode(var TemplateCode: Code[30], var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetInformationEntryValues</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetInformationEntryValues(TableNo: Integer, RecordIDVar: RecordId, InformationCode: Code[20], var InfoValue: Code[30], var Value: Code[80], var Description: Text, var FilePlacement: Text, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordIDVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InformationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoValue
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Value
+   							</td>
+   							<td class="font-style-italic">
+Code[80]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Description
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FilePlacement
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetTempItemSetFromSearch</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetTempItemSetFromSearch(TemplateCode: Code[30], var ItemTemp: Record Item temporary, var Succes: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TemplateCode
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemTemp
+   							</td>
+   							<td class="font-style-italic">
+Record Item temporary                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Succes
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeSalesLineOnAfterValidateNoInsertMasterData</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>OnBeforeSalesLineOnAfterValidateNoInsertMasterData.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnBeforeSalesLineOnAfterValidateNoInsertMasterData(var Rec: Record &quot;Sales Line&quot;, xRec: Record &quot;Sales Line&quot;, CurrFieldNo: Integer, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>VAR Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrFieldNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Integer.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>VAR Boolean.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeSalesLineOnAfterValidateTypeDeleteMasterData</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>OnBeforeSalesLineOnAfterValidateTypeDeleteMasterData.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnBeforeSalesLineOnAfterValidateTypeDeleteMasterData(var Rec: Record &quot;Sales Line&quot;, xRec: Record &quot;Sales Line&quot;, CurrFieldNo: Integer, var IsHandled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>VAR Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrFieldNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Integer.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								IsHandled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>VAR Boolean.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSetAssignQtyT37</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>GetSetAssignQtyT37. Used on page SCB Sales Order Lines List (6083050)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetSetAssignQtyT37(var Rec: Record &quot;Sales Line&quot;, var AssignedQty: Decimal, WriteBack: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>VAR Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AssignedQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>VAR Decimal.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WriteBack
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Boolean.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSetMankoStatusShortageOnDemand</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>GetSetMankoStatusShortageOnDemand. Used on page SCB SO Lines List (6083050)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure GetSetMankoStatusShortageOnDemand(var Rec: Record &quot;Sales Line&quot;, var MankoStatus: Enum &quot;SCB Base Shortage Status&quot;, WriteBack: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								<p>VAR Record &quot;Sales Line&quot;.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								MankoStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Base-Shortage-Status.html">&quot;SCB Base Shortage Status&quot;</a>                 </td>
+   							<td>
+								<p>VAR Integer.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								WriteBack
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Boolean.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnMasterDataOnDocumentGetFilePlacementAttachment</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with OnMDIOnDocumentGetFilePlacementAttachment</p>
+    	</div>
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Get the content of the &quot;File Placement Blob&quot; field which can be stored on the external services like Sharepoint, Azure Storage, etc.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with OnMDIOnDocumentGetFilePlacementAttachment,25.0)]
+procedure OnMasterDataOnDocumentGetFilePlacementAttachment(MasterDataOnDocument: Record &quot;SCB Master Data on Documents&quot;, var TempBlob: Codeunit &quot;Temp Blob&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataOnDocument
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								<p>Master Data On Document record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempBlob
+   							</td>
+   							<td class="font-style-italic">
+System.Utilities.&quot;Temp Blob&quot;                 </td>
+   							<td>
+								<p>The instance of the Temp Blob codeunit to which the result data would be stored</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnMDIOnDocumentGetFilePlacementAttachment</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Get the content of the &quot;File Placement Blob&quot; field which can be stored on the external services like Sharepoint, Azure Storage, etc.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+procedure OnMDIOnDocumentGetFilePlacementAttachment(MasterDataOnDocument: Record &quot;SCB MDI On Documents&quot;, var TempBlob: Codeunit &quot;Temp Blob&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataOnDocument
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB MDI On Documents&quot;                 </td>
+   							<td>
+								<p>Master Data On Document record</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempBlob
+   							</td>
+   							<td class="font-style-italic">
+System.Utilities.&quot;Temp Blob&quot;                 </td>
+   							<td>
+								<p>The instance of the Temp Blob codeunit to which the result data would be stored</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

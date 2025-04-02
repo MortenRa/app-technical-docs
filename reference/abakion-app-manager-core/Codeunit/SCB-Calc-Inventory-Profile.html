@@ -1,0 +1,4998 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::SCB_Calc_Inventory_Profile">
+  <h1>Codeunit &quot;SCB Calc Inventory Profile&quot;</h1>
+
+
+<div class="font-style-italic">ID 6082565</div>
+
+
+
+
+
+
+
+
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">FindInventoryLevel</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindInventoryLevel(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindHistory</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindHistory(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindHistory</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindHistory(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100], CalcSalesPerson: Code[100], CalcCustomer: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100], CalcSalesPerson: Code[100], CalcCustomer: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindSalesDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindSalesDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindSalesDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindSalesDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100], CalcSalesPerson: Code[100], CalcCustomer: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindComponentDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindComponentDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindAssemblyDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindAssemblyDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindPlanningComponentDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindPlanningComponentDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindForecastDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindForecastDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindTransferDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindTransferDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindServiceDemand</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindServiceDemand(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindSupply</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindSupply(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindItemLedgEntry</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindItemLedgEntry(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindPurchaseSupply</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindPurchaseSupply(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindProductionSupply</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindProductionSupply(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindAssemblySupply</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindAssemblySupply(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindTransferSupply</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindTransferSupply(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindQtyFromBOM</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindQtyFromBOM(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindPlanningLine</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindPlanningLine(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindReversePlanning</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FindReversePlanning(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateInventoryLevel</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateInventoryLevel()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateThreeYears</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateThreeYears()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ToolTipThreeYears</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ToolTipThreeYears(var ItemAvailLocal: Record &quot;SCB Item Availability&quot;, var ItemAvailLocalPrev: Record &quot;SCB Item Availability&quot;, NewDate: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemAvailLocal
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemAvailLocalPrev
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateSeveralItems</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateSeveralItems()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateInventoryProfile</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateInventoryProfile()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertItemAvail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure InsertItemAvail(Date: Date, SourceType: Enum &quot;SCB Item Avail Source Type&quot;, SourceTemplate: Code[10], SourceJournal: Code[10], SourceNo: Text[50], LineNo: Integer, QuantityBase: Decimal, ItemNo: Code[50], Dimset: array[4] of Code[100], RefOrderNo: Code[20], RefOrderType: Enum &quot;SCB Ref. Order Type&quot;, RefOrderStatus: Enum &quot;SCB Ref. Order Status&quot;, SourceName: Text[100], InventoryQty: Decimal, InventoryQtyWO: Decimal, InventoryAfterPlanning: Decimal, InventoryAfterForecast: Decimal, ExpireDate: Date, PlanningFlex: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Date
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Item-Avail-Source-Type.html">&quot;SCB Item Avail Source Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceTemplate
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceJournal
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceNo
+   							</td>
+   							<td class="font-style-italic">
+Text[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QuantityBase
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dimset
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Type.html">&quot;SCB Ref. Order Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Status.html">&quot;SCB Ref. Order Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceName
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryQtyWO
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterPlanning
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterForecast
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExpireDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PlanningFlex
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertItemAvail</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure InsertItemAvail(Date: Date, SourceType: Enum &quot;SCB Item Avail Source Type&quot;, SourceTemplate: Code[10], SourceJournal: Code[10], SourceNo: Text[50], LineNo: Integer, QuantityBase: Decimal, ItemNo: Code[50], Dimset: array[4] of Code[100], RefOrderNo: Code[20], RefOrderType: Enum &quot;SCB Ref. Order Type&quot;, RefOrderStatus: Enum &quot;SCB Ref. Order Status&quot;, SourceName: Text[100], InventoryQty: Decimal, InventoryQtyWO: Decimal, InventoryAfterPlanning: Decimal, InventoryAfterForecast: Decimal, ExpireDate: Date, PlanningFlex: Option, SourceRecordId: RecordId)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Date
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Item-Avail-Source-Type.html">&quot;SCB Item Avail Source Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceTemplate
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceJournal
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceNo
+   							</td>
+   							<td class="font-style-italic">
+Text[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QuantityBase
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dimset
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Type.html">&quot;SCB Ref. Order Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Status.html">&quot;SCB Ref. Order Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceName
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryQtyWO
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterPlanning
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterForecast
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExpireDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PlanningFlex
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceRecordId
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertItemAvailExpire</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure InsertItemAvailExpire(Date: Date, SourceType: Enum &quot;SCB Item Avail Source Type&quot;, SourceTemplate: Code[10], SourceJournal: Code[10], SourceNo: Text[50], LineNo: Integer, QuantityBase: Decimal, ItemNo: Code[50], Dimset: array[4] of Code[100], RefOrderNo: Code[20], RefOrderType: Enum &quot;SCB Ref. Order Type&quot;, RefOrderStatus: Enum &quot;SCB Ref. Order Status&quot;, SourceName: Text[100], InventoryQty: Decimal, InventoryAfterPlanning: Decimal, InventoryAfterForecast: Decimal, ExpireDate: Date, PlanningFlex: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Date
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Item-Avail-Source-Type.html">&quot;SCB Item Avail Source Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceTemplate
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceJournal
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceNo
+   							</td>
+   							<td class="font-style-italic">
+Text[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QuantityBase
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dimset
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Type.html">&quot;SCB Ref. Order Type&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RefOrderStatus
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/SCB-Ref.-Order-Status.html">&quot;SCB Ref. Order Status&quot;</a>                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SourceName
+   							</td>
+   							<td class="font-style-italic">
+Text[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterPlanning
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InventoryAfterForecast
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExpireDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PlanningFlex
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetRecord</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetRecord(CalcFromDate: Date, CalcToDate: Date, CalcCompany: Text[30], CalcItemNo: Code[50], CalcLocationCode: Code[100], CalcVariantCode: Code[100], CalcGlobalDim1: Code[100], CalcGlobalDim2: Code[100], CalcForecastFrom: Date, CalcForecastName: Code[20], AvailSetupVar: Record &quot;SCB Item Availability Setup&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CalcFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCompany
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcLocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcVariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastFrom
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastName
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvailSetupVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetRecord2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetRecord2(CalcFromDate: Date, CalcToDate: Date, CalcCompany: Text[30], CalcItemNo: Code[50], CalcLocationCode: Code[100], CalcVariantCode: Code[100], CalcGlobalDim1: Code[100], CalcGlobalDim2: Code[100], CalcForecastFrom: Date, CalcForecastTo: Date, CalcForecastName: Code[20], AvailSetupVar: Record &quot;SCB Item Availability Setup&quot;, LoopNo: Integer, EntryNoVar: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CalcFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCompany
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcLocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcVariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastFrom
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastTo
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastName
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvailSetupVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LoopNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EntryNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetRecord2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetRecord2(CalcFromDate: Date, CalcToDate: Date, CalcCompany: Text[30], CalcItemNo: Code[50], CalcLocationCode: Code[100], CalcVariantCode: Code[100], CalcGlobalDim1: Code[100], CalcGlobalDim2: Code[100], CalcForecastFrom: Date, CalcForecastTo: Date, CalcForecastName: Code[20], AvailSetupVar: Record &quot;SCB Item Availability Setup&quot;, LoopNo: Integer, EntryNoVar: Integer, CalledOutside: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CalcFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCompany
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcLocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcVariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastFrom
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastTo
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastName
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvailSetupVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LoopNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EntryNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalledOutside
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetRecord2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetRecord2(CalcFromDate: Date, CalcToDate: Date, CalcCompany: Text[30], CalcItemNo: Code[50], CalcLocationCode: Code[100], CalcVariantCode: Code[100], CalcGlobalDim1: Code[100], CalcGlobalDim2: Code[100], CalcSalesPerson: Code[100], CalcCustomer: Code[100], CalcForecastFrom: Date, CalcForecastTo: Date, CalcForecastName: Code[20], AvailSetupVar: Record &quot;SCB Item Availability Setup&quot;, LoopNo: Integer, EntryNoVar: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CalcFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCompany
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcLocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcVariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastFrom
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastTo
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastName
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvailSetupVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LoopNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EntryNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetRecord2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetRecord2(CalcFromDate: Date, CalcToDate: Date, CalcCompany: Text[30], CalcItemNo: Code[50], CalcLocationCode: Code[100], CalcVariantCode: Code[100], CalcGlobalDim1: Code[100], CalcGlobalDim2: Code[100], CalcSalesPerson: Code[100], CalcCustomer: Code[100], CalcForecastFrom: Date, CalcForecastTo: Date, CalcForecastName: Code[20], AvailSetupVar: Record &quot;SCB Item Availability Setup&quot;, LoopNo: Integer, EntryNoVar: Integer, CalledOutside: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CalcFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCompany
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcLocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcVariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcGlobalDim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastFrom
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastTo
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcForecastName
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AvailSetupVar
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LoopNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EntryNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalledOutside
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetGlobalEntryNo</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetGlobalEntryNo(var EntryNoVar: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								EntryNoVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">MakeDimSet</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure MakeDimSet(Variant: Code[100], Location: Code[100], Dim1: Code[100], Dim2: Code[100], var DimSet: array[4] of Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Variant
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Location
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DimSet
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FirstOf</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FirstOf(Value: Code[100]): Code[100]</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Value
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Code[100]               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">RecReservedQtyBase</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure RecReservedQtyBase(RecVar: Variant, RunCalculation: Boolean): Decimal</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecVar
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RunCalculation
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Decimal               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">GetPurchHeaderDocumentType</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetPurchHeaderDocumentType(SourceSubtype: Option): Enum &quot;Purchase Document Type&quot;</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceSubtype
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Microsoft.Purchases.Document.&quot;Purchase Document Type&quot;               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSalesDocumentType</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetSalesDocumentType(SourceSubtype: Option): Enum &quot;Sales Document Type&quot;</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceSubtype
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Microsoft.Sales.Document.&quot;Sales Document Type&quot;               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">GetProductionStatus</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetProductionStatus(SourceSubtype: Option): Enum &quot;Production Order Status&quot;</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceSubtype
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Microsoft.Manufacturing.Document.&quot;Production Order Status&quot;               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">GetAssemblyDocumentType</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetAssemblyDocumentType(SourceSubtype: Option): Enum &quot;Assembly Document Type&quot;</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceSubtype
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Microsoft.Assembly.Document.&quot;Assembly Document Type&quot;               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">SetAssignQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetAssignQty()</code></pre>
+
+
+
+
+   </div>
+  	<h2 id="events">Events</h2>
+   <h3 class="memberNameHolder">SetQualityControlFilter_v2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure SetQualityControlFilter_v2(var ItemLedgerEntry: Record &quot;Item Ledger Entry&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemLedgerEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Item Ledger Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindSalesAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindSalesAssignedQty(Company: Text[30], ItemNo: Code[50], LocationCode: Code[20], VariantCode: Code[10], Dim1: Code[100], Dim2: Code[100], LocalFromDate: Date, LocalToDate: Date, var SalesOrderLine: Record &quot;Sales Line&quot;, var DimSet: array[4] of Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SalesOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DimSet
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindOutstandingSalesAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindOutstandingSalesAssignedQty(var SalesOrderLine: Record &quot;Sales Line&quot;, var OutstandingQty: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OutstandingQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindComponentAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindComponentAssignedQty(Company: Text[30], ItemNo: Code[50], LocationCode: Code[20], VariantCode: Code[10], Dim1: Code[100], Dim2: Code[100], LocalFromDate: Date, LocalToDate: Date, var ProdOrderComponent: Record &quot;Prod. Order Component&quot;, var DimSet: array[4] of Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ProdOrderComponent
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Component&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DimSet
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindOutstandingComponentAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindOutstandingComponentAssignedQty(var ProdOrderComponent: Record &quot;Prod. Order Component&quot;, var OutstandingQty: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ProdOrderComponent
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Prod. Order Component&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OutstandingQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindAssemblyAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindAssemblyAssignedQty(Company: Text[30], ItemNo: Code[50], LocationCode: Code[20], VariantCode: Code[10], Dim1: Code[100], Dim2: Code[100], LocalFromDate: Date, LocalToDate: Date, var AssemblyOrderLine: Record &quot;Assembly Line&quot;, var DimSet: array[4] of Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								AssemblyOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Assembly Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DimSet
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindOutstandingAssemblyAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindOutstandingAssemblyAssignedQty(var AssemblyOrderLine: Record &quot;Assembly Line&quot;, var OutstandingQty: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								AssemblyOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Assembly Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OutstandingQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetForecastDemandFilter_v2</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure SetForecastDemandFilter_v2(var ProdForecastEntry: Record &quot;Production Forecast Entry&quot;, Dim1: Code[100], Dim2: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ProdForecastEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Production Forecast Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindTransferAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindTransferAssignedQty(Company: Text[30], ItemNo: Code[50], LocationCode: Code[20], VariantCode: Code[10], Dim1: Code[100], Dim2: Code[100], LocalFromDate: Date, LocalToDate: Date, var TransferOrderLine: Record &quot;Transfer Line&quot;, var DimSet: array[4] of Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TransferOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Transfer Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DimSet
+   							</td>
+   							<td class="font-style-italic">
+array[4] of Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindOutstandingTransferAssignedQty</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindOutstandingTransferAssignedQty(var TransferOrderLine: Record &quot;Transfer Line&quot;, var OutstandingQty: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TransferOrderLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Transfer Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OutstandingQty
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetPurchaseLineChoiseFilter</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure SetPurchaseLineChoiseFilter(var PurchaseLine: Record &quot;Purchase Line&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PurchaseLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Purchase Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FindPurchaseOrderHandlings</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure FindPurchaseOrderHandlings(Company: Text[30], ItemNo: Code[50], LocationCode: Code[100], VariantCode: Code[100], Dim1: Code[100], Dim2: Code[100], LocalFromDate: Date, LocalToDate: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Company
+   							</td>
+   							<td class="font-style-italic">
+Text[30]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ItemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[50]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocationCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VariantCode
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim1
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Dim2
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalFromDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LocalToDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertAssignQuantity</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(True,False)]
+local procedure InsertAssignQuantity(var ItemAvailability: Record &quot;SCB Item Availability&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemAvailability
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Item Availability&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterFindHistoryItemLedgerEntrySetFilters</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterFindHistoryItemLedgerEntrySetFilters(var ItemLedgerEntry: Record &quot;Item Ledger Entry&quot;, CalcSalesPerson: Code[100], CalcCustomer: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemLedgerEntry
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Item Ledger Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterFindSalesDemandSalesLineSetFilters</h3>
+   <div class="memberInfo">
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterFindSalesDemandSalesLineSetFilters(var SalesLine: Record &quot;Sales Line&quot;, CalcSalesPerson: Code[100], CalcCustomer: Code[100])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SalesLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Sales Line&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcSalesPerson
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CalcCustomer
+   							</td>
+   							<td class="font-style-italic">
+Code[100]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
