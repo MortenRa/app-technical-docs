@@ -35,8 +35,8 @@
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../../../index.html">
-            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
-            Documentation
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Abakion Apps Documentation">
+            Abakion Apps Documentation
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -409,6 +409,63 @@ Boolean               </td>
 
 
    </div>
+   <h3 class="memberNameHolder">LogChangesOnAfterModifyInformationSetup</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 23.0. Replaced with version with ForceWithCurrFieldNo</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with ForceWithCurrFieldNo,23.0)]
+procedure LogChangesOnAfterModifyInformationSetup(var Rec: Record &quot;SCB Information Entry&quot;, xRec: Record &quot;SCB Information Entry&quot;, RunTrigger: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Rec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Information Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRec
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Information Entry&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RunTrigger
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
    <h3 class="memberNameHolder">LogChangesOnAfterModifyInformationSetupForce2</h3>
    <div class="memberInfo">
 
@@ -500,6 +557,163 @@ Record &quot;SCB Information Entry&quot;                 </td>
    						<tr>
    							<td>
 								RunTrigger
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">InsertMasterDataLogEntry2</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 23.0. Replaced with version with ForceWithCurrFieldNo</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with ForceWithCurrFieldNo,23.0)]
+procedure InsertMasterDataLogEntry2(MasterDataArchiveSetup: Record &quot;SCB Master Data Archive Setup&quot;, TableVar: Integer, NoVar: RecordId, InfoCodeVar: Code[20], ArchiveType: Option, ArchiveNo: Integer, OldInfValue: Text, NewInfValue: Text, OldValue: Text, NewValue: Text, OldDescr: Text, NewDescr: Text, OnRename: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataArchiveSetup
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data Archive Setup&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TableVar
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NoVar
+   							</td>
+   							<td class="font-style-italic">
+RecordId                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								InfoCodeVar
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ArchiveType
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ArchiveNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OldInfValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewInfValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OldValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewValue
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OldDescr
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewDescr
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								OnRename
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
@@ -759,6 +973,174 @@ Record &quot;SCB Information Entry&quot;                 </td>
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">LookupInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+procedure LookupInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ValidateInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+procedure ValidateInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">LookupInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+procedure LookupInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ValidateInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+procedure ValidateInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
    							<td>
 								
    							</td>
@@ -1377,6 +1759,61 @@ Boolean                 </td>
 
 
    </div>
+   <h3 class="memberNameHolder">SkipTable</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version . Moved to Global Trigger Mgt.</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Moved to Global Trigger Mgt.)]
+procedure SkipTable(TableId: Integer): Boolean</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TableId
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Boolean               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
   	<h2 id="events">Events</h2>
    <h3 class="memberNameHolder">OnBeforeInsertMasterData</h3>
    <div class="memberInfo">
@@ -1940,6 +2377,232 @@ Code[20]                 </td>
 
 
    </div>
+   <h3 class="memberNameHolder">OnBeforeDeleteMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeDeleteMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, KeyField1: Code[20], KeyField2: Code[20], KeyField3: Code[20], KeyField4: Code[20], KeyField5: Code[20], LineNo: Integer, TypeVar: Option, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField1
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField2
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField3
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField4
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField5
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterDeleteMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterDeleteMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, KeyField1: Code[20], KeyField2: Code[20], KeyField3: Code[20], KeyField4: Code[20], KeyField5: Code[20], LineNo: Integer, TypeVar: Option)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField1
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField2
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField3
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField4
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								KeyField5
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LineNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TypeVar
+   							</td>
+   							<td class="font-style-italic">
+Option                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
    <h3 class="memberNameHolder">OnBeforeDeleteMDIOnDocuments</h3>
    <div class="memberInfo">
 
@@ -2358,6 +3021,476 @@ Record &quot;SCB Information Entry&quot;                 </td>
    							</td>
    							<td class="font-style-italic">
 Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeLookupInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeLookupInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterLookupInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterLookupInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidateInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeValidateInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterValidateInformationCodeMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterValidateInformationCodeMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeLookupInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeLookupInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterLookupInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterLookupInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidateInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeValidateInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterValidateInformationValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterValidateInformationValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, xRecMasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								xRecMasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnBeforeValidateValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnBeforeValidateValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;, var Handled: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Handled
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">OnAfterValidateValueMasterDataOnDocuments</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 25.0. Replaced with version with &quot;SCB MDI On Documents&quot; parameter</p>
+    	</div>
+
+
+   		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+[Obsolete(Replaced with version with &quot;SCB MDI On Documents&quot; parameter,25.0)]
+local procedure OnAfterValidateValueMasterDataOnDocuments(var MasterDataonDocuments: Record &quot;SCB Master Data on Documents&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								MasterDataonDocuments
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;SCB Master Data on Documents&quot;                 </td>
    							<td>
 								
    							</td>

@@ -4,6 +4,26 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "source_relative_path": "images/abakion-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/abakion-logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -1979,6 +1999,1926 @@
       "output": {
         ".html": {
           "relative_path": "reference/abakion-app-manager-core/TableExtension/SCB.683-SKU.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-720-Extension-Install.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-720-Extension-Install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-720-Extension-Upgrade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-720-Extension-Upgrade.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-720-Feature-Mgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-720-Feature-Mgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-720-Notific.-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-720-Notific.-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Customs-Tariff-Setup-Funk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Customs-Tariff-Setup-Funk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Demo-Data-720-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Demo-Data-720-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-DocCustomizer-Setup-Fn..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-DocCustomizer-Setup-Fn..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Document-Replacement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Document-Replacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Generating-Barcodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Generating-Barcodes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Generic-Functions-720.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Generic-Functions-720.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Master-Data-Picture-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Master-Data-Picture-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Matrix-Setup-Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Matrix-Setup-Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Pick-Hier-setup-function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Pick-Hier-setup-function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Proforma-Net-Weight-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Proforma-Net-Weight-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Proforma-Ship-Setup-Funk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Proforma-Ship-Setup-Funk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Remittance-Advice-Setup-Fn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Remittance-Advice-Setup-Fn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Rental-Man-Setup-Funk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Rental-Man-Setup-Funk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Rep.-Grouping-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Rep.-Grouping-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-S.Container-Setup-Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-S.Container-Setup-Function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Sales-Return-Setup-Funk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Sales-Return-Setup-Funk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Subscriber-Events-720.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Subscriber-Events-720.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-TransferOrder-Setup-Funk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-TransferOrder-Setup-Funk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-WarehouseShipment-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-WarehouseShipment-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Waybill-Setup-Func.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Waybill-Setup-Func.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB-Whse-Ship-Adress-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB-Whse-Ship-Adress-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Codeunit/SCB720-Upgrade-Tag-Definitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Codeunit/SCB720-Upgrade-Tag-Definitions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Enum/SCB-Payment-ID-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Enum/SCB-Payment-ID-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Enum/SCB-Payment-Modulus-Algorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Enum/SCB-Payment-Modulus-Algorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Enum/SCB-Whse-ActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Enum/SCB-Whse-ActionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Module/Document-Customizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Module/Document-Customizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_19.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_19.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_23.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_23.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_25.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_25.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC25.3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC25.3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC25.4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC25.4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC720-461.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Obsoletion/obsolete_by_BC720-461.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Address-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Address-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Bank-Account-pr.-Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Bank-Account-pr.-Currency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Caption-Translations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Caption-Translations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Captions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Captions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Columns-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Columns-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Columns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Columns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Conf.-New-Doc-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Conf.-New-Doc-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Conf.-New-Total-Capt.-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Conf.-New-Total-Capt.-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Column-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Column-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Footer-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Footer-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Layout-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Layout-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Template-Code.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Confirm-New-Template-Code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DCU-Demo-Video.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DCU-Demo-Video.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DCU-Getting-Started.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DCU-Getting-Started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DCU-Quick-Start.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DCU-Quick-Start.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Default-Document-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Default-Document-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DocCustomizer-Cont.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DocCustomizer-Cont.Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DocCustomizer-L-O-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DocCustomizer-L-O-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Document-Customizer-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Document-Customizer-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Document-Customizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Document-Customizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Document-Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Document-Font.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Document-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Document-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Inst..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Inst..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Layouts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-DocumentCustomizer-Layouts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Dynamic-Doc.-Setup-Guide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Dynamic-Doc.-Setup-Guide.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Ext.-Description-fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Ext.-Description-fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Extd-Descr.-Fields-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Extd-Descr.-Fields-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Extended-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Extended-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Extended-Footer-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Extended-Footer-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Extended-Footer-lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Extended-Footer-lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-HTML-Parameters-FactBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-HTML-Parameters-FactBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-HTML-Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-HTML-Parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Header-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Header-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Header-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Header-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Line-Grouping-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Line-Grouping-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Matrix-Columns-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Matrix-Columns-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Nav-Versions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Nav-Versions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Rep.-Hierarchy-Templ.-Set..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Rep.-Hierarchy-Templ.-Set..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Report-Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Report-Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Report-Hierarchy-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Report-Hierarchy-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Report-Options-Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Report-Options-Picture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Report-Pack-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Report-Pack-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Sales-Line-Grouping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Sales-Line-Grouping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Total-Caption-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Total-Caption-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Page/SCB-Total-Captions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Page/SCB-Total-Captions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB-720-FirmPlan.Prod.-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB-720-FirmPlan.Prod.-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB-720-FirmPlan.Prod.-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB-720-FirmPlan.Prod.-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB-720-Rel.Prod.-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB-720-Rel.Prod.-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-AssemblyOrder-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-AssemblyOrder-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-BankAccountCard-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-BankAccountCard-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-BlanketPO-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-BlanketPO-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-BlanketSO-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-BlanketSO-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-CustomerCard-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-CustomerCard-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Inventory-Pick-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Inventory-Pick-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-IssuedReminder-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-IssuedReminder-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PaymentMethods-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PaymentMethods-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSInvSubform-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSInvSubform-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesCM-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesCM-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesCMSubform-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesCMSubform-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesShipment-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PostSalesShipment-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PostedSalesInvoice-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PostedSalesInvoice-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Purch-RO-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Purch-RO-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PurchOrder-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PurchOrder-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-PurchQuote-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-PurchQuote-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Rel.Prod-Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Rel.Prod-Orders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Reminder-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Reminder-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SI-Subform-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SI-Subform-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SOrderSubform-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SOrderSubform-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesCMSubform-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesCMSubform-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesCreditMemo-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesCreditMemo-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesInvoice-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesInvoice-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesOrder-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesOrder-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesQuote-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-SalesQuote-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Service-Order-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Service-Order-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-VendorCard-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-VendorCard-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PageExtension/SCB.720-Warehouse-Pick-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PageExtension/SCB.720-Warehouse-Pick-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/PermissionSet/SCB-Doc-Customizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/PermissionSet/SCB-Doc-Customizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB---Statement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB---Statement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Assembly-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Assembly-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Blanket-Purchase-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Blanket-Purchase-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Blanket-Sales-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Blanket-Sales-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Cust-Upd.-Doc.-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Cust-Upd.-Doc.-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Export-Captions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Export-Captions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Hierarchy-Pick-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Hierarchy-Pick-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Import-Captions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Import-Captions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Masterdata-Info.-Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Masterdata-Info.-Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Pick-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Pick-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Posted-Purch.-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Posted-Purch.-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Posted-Purh.-Cr.-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Posted-Purh.-Cr.-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Posted-Whse.-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Posted-Whse.-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Pro-Forma-Sales-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Pro-Forma-Sales-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Production-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Production-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Purchase-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Purchase-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Purchase-Quote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Purchase-Quote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Purchase-Receipt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Purchase-Receipt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Purchase-Return-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Purchase-Return-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Reminder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Reminder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Remittance-Advice-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Remittance-Advice-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Remittance-Advice-Journal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Remittance-Advice-Journal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales---Cr.-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales---Cr.-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales---Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales---Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales---Quote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales---Quote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales---Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales---Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales-Cont.-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales-Cont.-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales-Order-Confirmation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales-Order-Confirmation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Sales-Return-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Sales-Return-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Service-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Service-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Transfer-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Transfer-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Vend-Upd.-Doc.-Templates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Vend-Upd.-Doc.-Templates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Warehouse-Picklist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Warehouse-Picklist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Report/SCB-Whse.-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Report/SCB-Whse.-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-720-TempBlob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-720-TempBlob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Address-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Address-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Bank-Account-pr.-Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Bank-Account-pr.-Currency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Caption-Translations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Caption-Translations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Caption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Caption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Column-Caption-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Column-Caption-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Columns-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Columns-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Columns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Columns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Default-Report-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Default-Report-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Ext.-Description-fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Ext.-Description-fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Extended-Footer-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Extended-Footer-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Extended-Footer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Extended-Footer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Extended-Relations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Extended-Relations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-HTML-Parameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-HTML-Parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Header-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Header-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Header-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Header-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Line-Grouping-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Line-Grouping-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-NAV-Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-NAV-Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Other-Captions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Other-Captions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Rep.-Hierarchy-Templ.-Set..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Rep.-Hierarchy-Templ.-Set..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Font.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Hierarchy-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Hierarchy-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Pack-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Pack-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Report-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Report-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Sales-Line-Grouping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Sales-Line-Grouping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Total-Caption-Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Total-Caption-Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/Table/SCB-Total-Caption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/Table/SCB-Total-Caption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-Bank-Account-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-Bank-Account-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-PaymentMethod-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-PaymentMethod-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesCrMemoHeader-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesCrMemoHeader-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesCrMemoLine-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesCrMemoLine-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesHeader-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesHeader-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesInvHeader-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesInvHeader-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesInvoiceLine-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesInvoiceLine-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesLine-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SalesLine-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/TableExtension/SCB.720-SaleshipmentBuffer-Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/TableExtension/SCB.720-SaleshipmentBuffer-Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/XmlPort/SCB-DocCustomizer-L-O-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/XmlPort/SCB-DocCustomizer-L-O-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/XmlPort/SCB-DocCustomizer-Setup-XML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/XmlPort/SCB-DocCustomizer-Setup-XML.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/XmlPort/SCB-DynamicDoc.-Cont.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/XmlPort/SCB-DynamicDoc.-Cont.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/document-customizer/XmlPort/SCB-Import-Caption-Translation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/document-customizer/XmlPort/SCB-Import-Caption-Translation.html"
         }
       },
       "version": ""
@@ -4419,6 +6359,16 @@
       "output": {
         ".html": {
           "relative_path": "reference/master-data-information/Obsoletion/obsolete_by_25.4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/master-data-information/Obsoletion/obsolete_by_26.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/master-data-information/Obsoletion/obsolete_by_26.0.html"
         }
       },
       "version": ""
